@@ -1,16 +1,15 @@
 # <h1 align="center">API-Delivery</h1>
 
 <p align="center">
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 <a href="https://spring.io/"><img src="https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot"></a>
 <a href="https://www.oracle.com/java/technologies/downloads/"><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"></a>
 <a href="https://insomnia.rest/download"><img src="https://img.shields.io/badge/Insomnia-5849be?style=for-the-badge&logo=Insomnia&logoColor=white"></a>
 <a href="https://www.mysql.com/downloads/"><img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"></a>
 </p>
 
-<p align="center">O projeto é consiste em uma API de entrega (logística), 
+<p align="center">O projeto consiste em uma API de entrega, 
 onde existe cadastro de cliente juntamente com seu 
-endereço e que por sua vez, solicita algum produto, o qual será enviado ao endereço do solicitante. Todas as tentativas de entrega do produto, será registrado no sistema através da entidade de <em>ocorrência</em></p>.  
+endereço e que por sua vez, solicita algum produto, o qual será enviado ao endereço do solicitante. Todas as tentativas de entrega do produto, será registrado no sistema através da entidade de <em>ocorrência</em></p>. Arquivo de rotas anexado ao projeto.  
 
 ![alt](https://live.staticflickr.com/65535/51776226400_19d6a24ec6_b.jpg)
 
@@ -38,30 +37,32 @@ Além disto é bom ter um editor para trabalhar com o código como [STS](https:/
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/tgmarinho/nlw1>
+$ git clone nesse repositório
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd nlw1
-
-# Vá para a pasta server
-$ cd server
+$ cd pasta_do_projeto
 
 # Instale as dependências
-$ npm install
+$ baixe as dependencias usando o maven
 
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
-
-# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
+# O servidor inciará na porta:8080 - acesse <http://localhost:8080>
 ```
 
 ### 🛠 Tecnologias usadas
 
 - **[Spring Boot v.2.6.1](https://spring.io/)**
-- **[MySQL.](https://www.mysql.com/downloads/)**
+- **[MySQL](https://www.mysql.com/downloads/)**
 - **[Lombok](https://projectlombok.org/setup/eclipse)**
 - **[Flyway](https://flywaydb.org/)**
 - **[ModelMapper](http://modelmapper.org/)**
+  
+
+
+### 🚧 License
+
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+
+
 
 ### Autor
 ---
